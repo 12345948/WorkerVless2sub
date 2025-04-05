@@ -1,13 +1,6 @@
-# 🚀 优选订阅生成器 WorkerVless2sub
-![sub](./sub.png)
-这个是一个通过 Cloudflare Workers 搭建，自动化批量替换生成优选线路 VMess / VLESS / Trojan 节点的 **优选订阅生成器** [[实现原理]](https://www.youtube.com/watch?v=p-KhFJAC4WQ&t=70s)
 
-> [!WARNING]
-> 注意！这是一个**公益服务项目**，请不要将私人节点放入`LINK`变量，这会让所有人都能获得此节点！！！
-
-> Telegram交流群：[@CMLiussss](https://t.me/CMLiussss)，**感谢 [Alice Networks](https://alice.ws/aff.php?aff=15) 提供的云服务器维持 [CM订阅转换服务](https://sub.cmliussss.net/) ！**
 ## 🔧 部署方法
-### 🛠 Pages Github 部署 [视频教程](https://www.youtube.com/watch?v=p-KhFJAC4WQ&t=509s)
+### 🛠 Pages Github 部署
 <details>
 <summary><code><strong>「 Pages Github 部署方法 」</strong></code></summary>
 
@@ -61,7 +54,7 @@
 
  </details>
 
-### ⚙️ Workers 部署方法 [视频教程](https://youtu.be/AtCF7eq0hcE)
+### ⚙️ Workers 部署方法
 
 <details>
 <summary><code><strong>「 Workers 部署方法 」</strong></code></summary>
@@ -129,8 +122,7 @@
 
 ---
 
-## 💡 如何使用 [视频教程](https://youtu.be/OjqCKeEY7DQ)
-
+## 💡 如何使用
   例如您的workers项目域名为：`sub.cmliussss.workers.dev`；
   
 ### 1. 快速订阅
@@ -221,15 +213,14 @@
 | BEIAN | `提供维护: <a href='https://t.me/CMLiussss'>CMLiussss</a>` | 主页维护信息 | 
 | SOCKS5DATA | [https://raw.github.../socks5Data](https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/socks5Data) | Socks5代理池 | 
 | PS | `【请勿测速】` | 节点名备注消息 | 
-| PROXYIP | `proxyip.cmliussss.net` | 默认分配的ProxyIP, 多ProxyIP将随机分配（支持多元素, 元素之间使用`,`或`换行`作间隔） | 
+| PROXYIP | `proxyip.cmliussss.net` | 默认分配的ProxyIP, 多ProxyIP将随机分配（支持多元素, 元素之间使用`,`或`换行`作间隔） |
+| PROXYIPAPI |  | （支持多元素, 元素之间使用`,`或`换行`作间隔） | 
 | CMPROXYIPS | `proxyip.aliyun.cmliussss.net#HK` | 识别HK后分配对应的ProxyIP（支持多元素, 元素之间使用`,`或`换行`作间隔） | 
+| CMPROXYIPSAPI |  | 识别HK后分配对应的ProxyIP（支持多元素, 元素之间使用`,`或`换行`作间隔） | 
 | CFPORTS | `2053`,`2096`,`8443` | CF账户标准端口列表 |
 | LINK | `vless://b7a39...`,`vmess://ew0K...`,`https://sub...` | 补充的**公益节点链接**（不要填入私用节点）, 可同时放入多个节点链接与多个订阅链接（支持多元素, 元素之间使用`,`或`换行`作间隔） |
 
 ----
-
-## ⭐ Star 星星走起
-[![Stargazers over time](https://starchart.cc/cmliu/WorkerVless2sub.svg?variant=adaptive)](https://starchart.cc/cmliu/WorkerVless2sub)
 
 # 🙏 致谢
 [Alice Networks LTD](https://alice.ws/aff.php?aff=15)，[SAKURA-YUMI](https://github.com/SAKURA-YUMI)，[EzSync](https://github.com/EzSync)、[ACL4SSR](https://github.com/ACL4SSR/ACL4SSR/tree/master/Clash/config)、[3Kmfi6HP](https://github.com/6Kmfi6HP/EDtunnel/blob/main/.github/workflows/obfuscator.yml)
